@@ -1,6 +1,11 @@
 header:
   - titles:
       # @start locale config
+      en      : &EN       Home
+    url: /index.html
+  
+  - titles:
+      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
