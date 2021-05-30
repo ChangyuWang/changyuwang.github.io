@@ -127,11 +127,12 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : 55549bc5332862f2a6f9
+    clientID: 55549bc5332862f2a6f9
     clientSecret: 082329bf69852cc368c38a9aefcdf692bc15f2f7
-    repository  : changyuwang.github.io
-    owner       : ChangyuWang
-    admin       : ChangyuWang
+    repository: changyuwang.github.io
+    owner: ChangyuWang
+    admin:
+      - ChangyuWang
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
@@ -146,13 +147,13 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
+  provider: false # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
     app_id    : 0J2UctbISrWQnBUnWQVwsibM-9Nh9j0Va
     app_key   : 15PLbMbtH70yVmjMfRTLXs7G
-    app_class : # LeanCloud App class
+    app_class : changyuwang_github_io
 
 
 ## => Search
